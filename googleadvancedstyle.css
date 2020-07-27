@@ -1,0 +1,103 @@
+body {
+    background-image: url("google_logo_transparent.png"), url("advanced_search.png"), url("find_pages_with.png"), url("how_to_advanced_search.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 90px, 175px, 190px, 425px;
+    background-position-x: 16px, 38px, 25px, 825px;
+    background-position-y: 16px, 73px, 160px, 157px;
+}
+#googlehome {
+    color: rgb(97, 97, 97);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px
+}
+#allthesewords {
+    width: 568px;
+    height: 25px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgba(209, 209, 209, 0.555);
+    padding-left: 7px;
+    margin-top: 215px;
+    margin-left: 218px;
+    
+    display: block;
+}
+#allthesewords:focus {
+    outline: 1px rgba(46, 46, 255, 0.644);
+    outline-style: ridge;
+    border: hidden;
+    box-shadow: inset 0px 0px 2px 0px;
+}
+#thisexactphrase {
+    width: 568px;
+    height: 25px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgba(209, 209, 209, 0.555);
+    padding-left: 7px;
+    display: block;
+    margin-top: 13px;
+    margin-left: 218px;
+}
+#thisexactphrase:focus {
+    outline: 1px rgba(46, 46, 255, 0.644);
+    outline-style: ridge;
+    border: hidden;
+    box-shadow: inset 0px 0px 2px 0px;
+}
+#anyofthesewords {
+    width: 568px;
+    height: 25px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgba(209, 209, 209, 0.555);
+    padding-left: 7px;
+    display: block;
+    margin-top: 13px;
+    margin-left: 218px;
+}
+#anyofthesewords:focus {
+    outline: 1px rgba(46, 46, 255, 0.644);
+    outline-style: ridge;
+    border: hidden;
+    box-shadow: inset 0px 0px 2px 0px;
+}
+#noneofthesewords {
+    width: 568px;
+    height: 25px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgba(209, 209, 209, 0.555);
+    padding-left: 7px;
+    display: block;
+    margin-top: 13px;
+    margin-left: 218px;
+}
+#noneofthesewords:focus {
+    outline: 1px rgba(46, 46, 255, 0.644);
+    outline-style: ridge;
+    border: hidden;
+    box-shadow: inset 0px 0px 2px 0px;
+}
+#submitbox {
+    background-color: rgba(77, 144, 254);
+    border-color: rgb(48, 121, 237);
+    border-width: 1px;
+    border-radius: 2px;
+    width: 120px;
+    height: 32px;
+    margin-left: 678px;   
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white  
+}
+#submitbox:hover {
+    background-color: rgb(59, 134, 255);
+}
